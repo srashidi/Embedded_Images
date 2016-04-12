@@ -1,0 +1,22 @@
+header {
+	background-color: red;
+}
+
+section {
+	float: left;
+	background-color: blue;
+	margin: 1%;
+	width: 60%;
+}
+
+aside {
+	float: right;
+	background-color: green;
+	margin: 1%;
+	width: 30%;
+}
+
+footer {
+	clear: both;
+	background-color: orange;
+}
