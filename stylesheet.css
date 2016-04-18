@@ -1,22 +1,70 @@
+body {
+	background-color: gainsboro;
+	font-family: Roboto,arial,sans-serif;
+}
+
 header {
-	background-color: red;
+	background-color: white;
+	padding: 10px;
+	height: 90px;
+}
+
+#youtube-logo {
+	float: left;
+}
+
+#header-links {
+	float: right;
+}
+
+section.indent {
+	width: 5%;
+}
+
+section.related-video {
+	width: 30%;
+}
+
+aside.related-video {
+	width: 65%;
+	padding: 0;
+	margin: 5px 0;
+}
+
+article.related-video {
+	padding: 0;
+	clear: left;
 }
 
 section {
 	float: left;
-	background-color: blue;
 	margin: 1%;
-	width: 60%;
+	width: 52%;
+}
+
+article {
+	background-color: white;
+	padding: 10px;
+}
+
+article.border {
+	background-color: gainsboro;
 }
 
 aside {
 	float: right;
-	background-color: green;
+	background-color: white;
 	margin: 1%;
-	width: 30%;
+	width: 35%;
+	padding: 10px;
+}
+
+img.preview {
+	width: 120px;
 }
 
 footer {
+	background-color: white;
 	clear: both;
-	background-color: orange;
+	padding: 10px;
 }
